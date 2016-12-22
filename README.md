@@ -20,9 +20,12 @@ Second Python script was to find the most popular words that had meaningful info
 Second script does the following:
 
 -Use the output file of data_parser.py as input file
+
 -Import and update the Finnish stop words. Updating the stop word list was done after the first version of the visualization.
 -Tokenize the data
+
 -Calculate the word frequencies and create sorted lists based on frequency
+
 -Create Plotly bar chart visualization for top-100 words with highest frequency. I tested other visualizations like word cloud, but good old bar chart was best for the purpose.
 
 ANALYSIS
@@ -31,10 +34,15 @@ After the cleaning with stop words update, the visualization actually shows quit
 
 
 -Word "suomi" and its other forms are the most popular words in the articles. Probably digital history research covers mostly national topics like history studies in general.
+
 -Word "1800" has frequency of 77 and word "1700" frequency of 27. Probably 19th century is more popular topic in these articles than 18th century.
+
 -Words like "aineisto", "elokuva" and "kuva" are in the top-100. Probably articles cover quite a lot visual digital archive topics.
+
 -There are few words in the top-100 that are related to war. For instance "sodan" and "luutnantti". Probably war history is also digitalizing.
+
 -Word "aatehistoria" is mentioned 24 times. There is at least one article covering intellectual history and its relation to digital.
+
 -Word "mit" is mentioned 29 times. It can be either MIT university or some data error. Needs further inspection.
 
 Word frequency visualization is a very crude method and it is very hard to make final conclusions based on only that. However, it's also very efficient method.
